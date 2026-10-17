@@ -1,3 +1,8 @@
+<!-- Mr. Rao AI edition -->
+> **Mr. Rao AI edition.** Shared by [Mr. Rao AI](https://mrraoai.com). Step by step setup guide: [Free Open-Source Claude SEO Agents for Business Owners](https://mrraoai.com/resources/claude-open-source-seo-agents-for-business-owners/)
+>
+> Original project by Daniel Agrici (AgriciDaniel) (https://github.com/AgriciDaniel/claude-seo), MIT license.
+
 ![Claude SEO cover: a Claude Code command palette with /seo audit, schema, geo, content, and backlinks commands over a dark CRT panel](assets/cover.svg)
 
 # Claude SEO: SEO Skill for Claude Code
@@ -7,13 +12,13 @@
 [![CI](https://github.com/AgriciDaniel/claude-seo/actions/workflows/ci.yml/badge.svg)](https://github.com/AgriciDaniel/claude-seo/actions/workflows/ci.yml)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-blue)](https://claude.ai/claude-code)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/github/v/release/AgriciDaniel/claude-seo)](https://github.com/AgriciDaniel/claude-seo/releases)
+[![Version](https://img.shields.io/github/v/release/AgentMrX/claude-seo)](https://github.com/AgriciDaniel/claude-seo/releases)
 [![Tests](https://img.shields.io/badge/tests-410%20passing-brightgreen)](tests/)
-[![Community](https://img.shields.io/badge/AI%20Marketing%20Hub-Pro%20community-purple)](https://www.skool.com/ai-marketing-hub-pro)
+[![Community](https://img.shields.io/badge/AI%20Marketing%20Hub-Pro%20community-purple)](https://mrraoai.com)
 
 > **Two versions of this skill.**
-> - 🌐 **Public open-source** → [`AgriciDaniel/claude-seo`](https://github.com/AgriciDaniel/claude-seo): MIT, public releases, no membership. Use this if you want stable + downloadable.
-> - 🔒 **Community private mirror** → [`AI-Marketing-Hub/claude-seo`](https://github.com/AI-Marketing-Hub/claude-seo): early access to upcoming features and direct collaboration with the [AI Marketing Hub Pro](https://www.skool.com/ai-marketing-hub-pro) community. Requires membership.
+> - 🌐 **Public open-source** → [`AgriciDaniel/claude-seo`](https://github.com/AgentMrX/claude-seo): MIT, public releases, no membership. Use this if you want stable + downloadable.
+> - 🔒 **Community private mirror** → [`AI-Marketing-Hub/claude-seo`](https://github.com/AI-Marketing-Hub/claude-seo): early access to upcoming features and direct collaboration with the [AI Marketing Hub Pro](https://mrraoai.com) community. Requires membership.
 
 ### Why Claude SEO
 
@@ -68,14 +73,14 @@ Run a full audit and watch parallel agents fan out across the site:
 > ℹ️ **Which version are you installing?**
 >
 > - **Public open-source (default).** The commands below install from [`AgriciDaniel/claude-seo`](https://github.com/AgriciDaniel/claude-seo): MIT, public releases, no membership required.
-> - **AI Marketing Hub Pro member?** Install the community version with early access instead: swap `AgriciDaniel/claude-seo` for `AI-Marketing-Hub/claude-seo` and the plugin slug `claude-seo@agricidaniel-claude-seo` for `claude-seo@ai-marketing-hub-claude-seo`. Requires `gh auth login` (or PAT) with access to the `AI-Marketing-Hub` org. If `/plugin marketplace add` 404s, DM in the [Skool community](https://www.skool.com/ai-marketing-hub-pro) to get added.
+> - **AI Marketing Hub Pro member?** Install the community version with early access instead: swap `AgriciDaniel/claude-seo` for `AI-Marketing-Hub/claude-seo` and the plugin slug `claude-seo@agricidaniel-claude-seo` for `claude-seo@ai-marketing-hub-claude-seo`. Requires `gh auth login` (or PAT) with access to the `AI-Marketing-Hub` org. If `/plugin marketplace add` 404s, DM in the [Skool community](https://mrraoai.com) to get added.
 
 ### Plugin Install (Claude Code 1.0.33+)
 
 The fastest path. One-time marketplace add, then plugin install:
 
 ```bash
-/plugin marketplace add AgriciDaniel/claude-seo
+/plugin marketplace add AgentMrX/claude-seo
 /plugin install claude-seo@agricidaniel-claude-seo
 /seo setup
 ```
@@ -87,7 +92,7 @@ with `/seo doctor`. No global Python packages or PATH shims are created.
 ### Manual Install (Unix / macOS / Linux)
 
 ```bash
-git clone --depth 1 https://github.com/AgriciDaniel/claude-seo.git
+git clone --depth 1 https://github.com/AgentMrX/claude-seo.git
 bash claude-seo/install.sh
 ```
 
@@ -95,7 +100,7 @@ bash claude-seo/install.sh
 <summary>One-liner (curl, review then run)</summary>
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AgriciDaniel/claude-seo/main/install.sh > install.sh
+curl -fsSL https://raw.githubusercontent.com/AgentMrX/claude-seo/main/install.sh > install.sh
 cat install.sh        # review before running
 bash install.sh
 rm install.sh
@@ -106,7 +111,7 @@ rm install.sh
 ### Windows (PowerShell)
 
 ```powershell
-git clone --depth 1 https://github.com/AgriciDaniel/claude-seo.git
+git clone --depth 1 https://github.com/AgentMrX/claude-seo.git
 powershell -ExecutionPolicy Bypass -File claude-seo\install.ps1
 ```
 
@@ -351,7 +356,7 @@ a model, edit the `model:` line in the agent's frontmatter under `agents/`.
 ## Uninstall
 
 ```bash
-git clone --depth 1 https://github.com/AgriciDaniel/claude-seo.git
+git clone --depth 1 https://github.com/AgentMrX/claude-seo.git
 bash claude-seo/uninstall.sh
 ```
 
@@ -359,7 +364,7 @@ bash claude-seo/uninstall.sh
 <summary>One-liner (curl)</summary>
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AgriciDaniel/claude-seo/main/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/AgentMrX/claude-seo/main/uninstall.sh | bash
 ```
 
 </details>
@@ -396,7 +401,7 @@ Claude SEO is part of a family of Claude Code skills that interoperate cleanly:
 
 | Skill | What it does | How it connects |
 |-------|-------------|-----------------|
-| [Claude SEO](https://github.com/AgriciDaniel/claude-seo) | SEO analysis, audits, schema, GEO | Core. Analyzes sites and generates action plans. |
+| [Claude SEO](https://github.com/AgentMrX/claude-seo) | SEO analysis, audits, schema, GEO | Core. Analyzes sites and generates action plans. |
 | [Claude Blog](https://github.com/AgriciDaniel/claude-blog) | Blog writing, optimization, scoring | Companion. Writes content optimized by SEO findings. |
 | [Claude Banana](https://github.com/AgriciDaniel/banana-claude) | AI image generation via Gemini | Shared. Generates images for SEO assets and blog posts. |
 | [Codex SEO](https://github.com/AgriciDaniel/codex-seo) | Codex-first SEO skill suite | Port. Same SEO system adapted for Codex skills, TOML agents, deterministic runners. |
@@ -457,12 +462,16 @@ Contributions welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before sub
 
 ---
 
-## Author
+---
 
-Built by **[Agrici Daniel](https://agricidaniel.com/about)**, AI Workflow Architect. Single maintainer, open to community contributions via the [Pro Skool community](https://www.skool.com/ai-marketing-hub-pro). Background in marketing automation, AI-assisted content workflows, and open-source tooling for Claude Code.
+## Adapted by Mr. Rao AI
 
-- [Blog](https://agricidaniel.com/blog): deep dives on AI marketing automation
-- [AI Marketing Hub (free)](https://www.skool.com/ai-marketing-hub): open community
-- [AI Marketing Hub Pro](https://www.skool.com/ai-marketing-hub-pro): Pro community, early access to this skill
-- [YouTube](https://www.youtube.com/@AgriciDaniel): tutorials and demos
-- [GitHub](https://github.com/AgriciDaniel): all open-source tools
+This repository is a copy of the open-source project above, maintained by [Mr. Rao AI](https://mrraoai.com) for readers of mrraoai.com.
+
+What is different in this copy:
+
+- Added the Mr. Rao AI header and this section, and pointed repo, install and community links to Mr. Rao AI.
+- Replaced the original author's credit, support and sponsor sections with this one (the original credit line is at the top).
+- The original LICENSE file is kept exactly as published.
+
+Setup guide, FAQ and updates: [Free Open-Source Claude SEO Agents for Business Owners](https://mrraoai.com/resources/claude-open-source-seo-agents-for-business-owners/). More free resources: [mrraoai.com/resources](https://mrraoai.com/resources/).

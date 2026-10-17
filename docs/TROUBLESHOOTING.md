@@ -11,7 +11,7 @@
 For plugin installs, verify and reinstall through Claude Code:
 ```bash
 /plugin list
-/plugin marketplace add AgriciDaniel/claude-seo
+/plugin marketplace add AgentMrX/claude-seo
 /plugin install claude-seo@agricidaniel-claude-seo
 ```
 
@@ -38,7 +38,7 @@ claude
 Caution: Prefer downloading, inspecting, then running remote scripts; the pipe-to-shell form below is the less-safe convenience option.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AgriciDaniel/claude-seo/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/AgentMrX/claude-seo/main/install.sh | bash
 ```
 
 ---
@@ -82,7 +82,7 @@ ls ~/.claude/skills/seo/requirements.txt
 
 If missing, download it directly:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AgriciDaniel/claude-seo/main/requirements.txt \
+curl -fsSL https://raw.githubusercontent.com/AgentMrX/claude-seo/main/requirements.txt \
   -o ~/.claude/skills/seo/requirements.txt
 ```
 
